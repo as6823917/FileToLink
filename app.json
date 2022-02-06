@@ -8,10 +8,7 @@
         "telegram",
         "FileToLink",
         "bot",
-        "link",
-        "pyrogram",
-        "telegram-bot",
-        "ArunSince2005"
+        "link"
     ],
     "repository": "https://github.com/as6823917/FileToLink",
     "env": {
