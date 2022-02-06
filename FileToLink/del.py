@@ -13,6 +13,12 @@ from config import ADMINS
 from config import TIME
 from config import GROUPS
 
+bot = Client(
+    session_name= SESSION,
+    api_id= API_ID,
+    api_hash= API_HASH
+)
+
 
 @bot.on_message(filters.group & filters.chat(GROUPS) & filters.all)
 async def deleter(bot: Client, cmd: Message):
