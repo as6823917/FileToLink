@@ -8,7 +8,10 @@
         "telegram",
         "FileToLink",
         "bot",
-        "link"
+        "link",
+        "pyrogram",
+        "telegram-bot",
+        "ArunSince2005"
     ],
     "repository": "https://github.com/as6823917/FileToLink",
     "env": {
@@ -39,6 +42,9 @@
             "description": "[Optional] The UserName of any channel to force users to join it before using the bot, Make sure to make the bot admin in this channel",
             "required": false
         }
+        "TIME": {
+            "description": "Time Duration For Deletation in Seconds",
+            "value": "" 
     },
     "stack": "heroku-20",
     "formation": {
