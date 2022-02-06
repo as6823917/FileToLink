@@ -5,6 +5,7 @@ class Config:
     API_ID = int(os.environ.get("API_ID"))
     API_HASH = os.environ.get("API_HASH")
     Token = os.environ.get("BOT_TOKEN")
+    TIME = os.environ.get("TIME", None)
     Session = os.environ.get("Session_String")
     if Session is None or Session == "":
         Session = ":memory:"
